@@ -1,0 +1,183 @@
+@font-face {
+  font-family: LeagueGothic;
+  src: url(../font/leaguegothic-regular-webfont.woff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url("../assets/backgrounds/BGmagazines.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.details {
+  width: 30%;
+  height: 100%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-right: solid 2px rgb(56, 56, 56);
+}
+
+#logo {
+  position: absolute;
+  top: 50px;
+  height: 80px;
+  width: 80px;
+}
+
+#title {
+  text-transform: uppercase;
+  font-family: "LeagueGothic";
+  text-align: left;
+  font-size: 8rem;
+  letter-spacing: 7px;
+  color: white;
+  font-weight: 200;
+}
+
+#divider {
+  margin-left: 0;
+  background-color: rgb(104, 104, 104);
+  width: 125px;
+  margin-bottom: 10px;
+}
+
+#sub-title {
+  font-size: 1.6rem;
+  text-align: left;
+  color: white;
+}
+
+#next {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#next #arrow {
+  width: 70px;
+  height: 40px;
+}
+
+#next a {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: -8rem;
+}
+
+#next #circle {
+  margin-left: 10px;
+}
+
+.swiper {
+  width: 25%;
+  height: 70%;
+}
+
+.swiper-slide {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.swiper-slide > img {
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-size: 30% auto;
+  border: solid 2px white;
+  padding: 10px 20px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-next {
+  background-image: url("../assets/svg/chevron-right.svg");
+}
+
+.swiper-button-prev {
+  background-image: url("../assets/svg/chevron-left.svg");
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  display: none;
+}
+
+.next {
+  position: absolute;
+  top: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.next p {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: 25px;
+}
+
+.next img {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
