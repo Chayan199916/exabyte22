@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@font-face {
+  font-family: "CD";
+  src: url(../font/CaviarDreams.ttf);
+}
+@font-face {
+  font-family: "LG";
+  src: url(../font/leaguegothic-regular-webfont.woff);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  color: whitesmoke;
+
+  background-image: url(../images/BGaboutus.png);
+}
+
+/**/
+/*left section*/
+/**/
+
+.left {
+  min-width: 240px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  cursor: pointer;
+  font-family: CD;
+}
+.logo img {
+  height: 50;
+  object-fit: contain;
+  margin-right: 1rem;
+}
+.sidebar__header {
+  margin-top: 3rem;
+  font-size: 48px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family: LG;
+}
+.btnouter {
+  margin-top: auto;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  text-align: center;
+  width: fit-content;
+  border: 5px solid lightgray;
+  border-left: none;
+  height: 90px;
+  width: 90px;
+  padding: 10px;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+}
+.btninner {
+  border: 5px solid #0f1010;
+  padding: 10;
+  width: fit-content;
+  border-radius: 45px;
+  height: 85;
+  width: 85;
+  display: flex;
+  align-items: center;
+  margin-left: -12px;
+}
+
+/**/
+/*main section*/
+/**/
+
+.main {
+  padding: 1rem;
+  flex: 1;
+  border-left: 1px solid lightgray;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main h1 {
+  margin-bottom: 1rem;
+}
+
+/**/
+/*mobile responsive*/
+/**/
+
+@media all and (max-width: 650px) {
+  .container {
+    flex-direction: column;
+  }
+  .btnouter {
+    display: none;
+  }
+  .main {
+    justify-content: flex-start;
+  }
+}

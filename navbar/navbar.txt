@@ -1,30 +1,17 @@
-# eXabyte '22
-
-# Instructions
-
-- fork the repo.
-- create a new branch with the name of the page you are working on.
-- put you work in a folder with the name of the task you are working on.
-- add your work and create a merge request.
-
-# adding navbar in pages
-
-1. link the navbar.js and navbar.css files
-2. add "selected" class in the li of the respective page
+1. copy the below code in navbar section
+2. and put selected class in the li of the respective page
 3. copy the "menu" icon form navbar/navbar.txt and paste
 
-```
+menu icon:
    <img
       class="open"
       onclick="openNav()"
       src="https://img.icons8.com/ios-glyphs/30/ffffff/menu--v1.png"
    />
-```
 
-4. copy the code snippet of navbar from navbar/navbar.txt and paste in the bottom of pages
-   [for example please check about/about.html]
-
-```
+3. import navbar.css and navbar.js in the file
+    
+snippet: 
     <div class="sidebar" id="mySidebar">
         <button class="close" onclick="closeNav()">close</button>
         <div class="options__container">
@@ -53,4 +40,3 @@
           /></a>
         </div>
     </div>
-```

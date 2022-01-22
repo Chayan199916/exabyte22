@@ -1,0 +1,99 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./contact.css" />
+    <link rel="stylesheet" href="../navbar/navbar.css" />
+    <link rel="icon" href="../images/logo.png" />
+
+    <title>eXabyte about page</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--left section-->
+      <div class="left">
+        <div class="logo">
+          <img alt="logo" src="../images/logo.png" />eXabyte 2022
+        </div>
+        <p class="sidebar__header">CONTACT US</p>
+        <div class="helper__container">
+          <div class="row">
+            <img src="https://img.icons8.com/ios/30/ffffff/apple-phone.png" />
+            <div>
+              <p><strong>PHONE</strong></p>
+              <p>+91-9830729259</p>
+            </div>
+          </div>
+          <div class="row">
+            <img src="https://img.icons8.com/ios/30/ffffff/apple-mail.png" />
+            <div>
+              <p><strong>EMAIL</strong></p>
+              <p>XYZ@GMAIL.COM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--main content-->
+      <div class="main">
+        <img
+          class="open"
+          onclick="openNav()"
+          src="https://img.icons8.com/ios-glyphs/30/ffffff/menu--v1.png"
+        />
+        <h1>Having a question?</h1>
+        <form>
+          <label for="name">Name</label><br />
+          <input class="popUp" type="text" id="name" required /><br />
+          <label for="email">Email</label><br />
+          <input class="popUp" type="email" required id="email" /><br />
+          <label for="phone">Phone</label><br />
+          <input class="popUp" type="number" id="phone" /><br />
+          <label for="comment">Message</label><br />
+          <textarea class="popUp" type="text" required id="comment"></textarea
+          ><br />
+          <br />
+          <button class="popUp" type="submit">Submit Your Request</button>
+        </form>
+      </div>
+
+      <!--right navbar-->
+      <div class="sidebar" id="mySidebar">
+        <img
+          class="close"
+          onclick="closeNav()"
+          src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png"
+        />
+        <div class="options__container">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="../about/about.html">About Us</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Magazines</a></li>
+            <li><a href="">Our team</a></li>
+            <li><a href="">Sponsors</a></li>
+            <li class="selected">
+              <a href="../contact/contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="icons__container">
+          <a href=""
+            ><img
+              src="https://img.icons8.com/ios/30/ffffff/facebook-new.png"
+            /> </a
+          ><a href=""
+            ><img
+              src="https://img.icons8.com/ios/30/ffffff/twitter--v1.png"
+            /> </a
+          ><a href=""
+            ><img
+              src="https://img.icons8.com/ios/30/ffffff/instagram-new--v1.png"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <script src="../navbar/navbar.js"></script>
+  </body>
+</html>

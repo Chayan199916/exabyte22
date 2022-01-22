@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@font-face {
+  font-family: "CD";
+  src: url(../fonts/caviar_dreams/CaviarDreams_Bold.ttf);
+}
+@font-face {
+  font-family: "LG";
+  src: url(../fonts/League-Gothic/LeagueGothic-Regular.otf);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  color: whitesmoke;
+
+  background-image: url(../images/BGcontacts.png);
+}
+
+/**/
+/*left section*/
+/**/
+
+.left {
+  min-width: 240px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  cursor: pointer;
+  font-family: CD;
+}
+.logo img {
+  height: 50;
+  object-fit: contain;
+  margin-right: 1rem;
+}
+.sidebar__header {
+  margin-top: 3rem;
+  font-size: 48px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family: LG;
+}
+.helper__container {
+  margin-top: 2rem;
+}
+.helper__container .row {
+  display: flex;
+  margin-bottom: 1rem;
+  font-size: small;
+}
+.helper__container .row img {
+  height: 30;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+/**/
+/*main section*/
+/**/
+
+.main {
+  padding: 1rem;
+  flex: 1;
+  border-left: 1px solid lightgray;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main h1 {
+  margin-bottom: 1rem;
+}
+.main form {
+  margin-top: 1rem;
+  width: 300px;
+}
+.main form label {
+  font-size: small;
+  font-weight: 500;
+}
+.main form input,
+textarea {
+  padding: 5px;
+  outline-width: 0;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 3px;
+  width: 100%;
+}
+
+.main button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: large;
+
+  cursor: pointer;
+  width: 100%;
+}
+
+/**/
+/*mobile responsive*/
+/**/
+
+@media all and (max-width: 650px) {
+  .container {
+    flex-direction: column;
+  }
+  .btnouter {
+    display: none;
+  }
+  .main {
+    justify-content: flex-start;
+  }
+}
