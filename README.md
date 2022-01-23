@@ -10,8 +10,8 @@
 # adding navbar in pages
 
 1. link the navbar.js and navbar.css files
-2. add "selected" class in the li of the respective page
-3. copy the "menu" icon form navbar/navbar.txt and paste
+2. add "selected" class in the li of the respective page and change the icon color from 808080 to ffffff in the icon image url
+3. copy the below code for "menu" icon and paste
 4. [important] please add 50px margin right in middle section for mobile & tablet view. Otherwise middle content will be covered by the page indicators in right side.
 
 ```
@@ -22,7 +22,7 @@
    />
 ```
 
-4. copy the code snippet of navbar from navbar/navbar.txt and paste in the bottom of pages
+4. copy the code for snippet for navbar and paste in the bottom of pages
    [for example please check about/about.html]
 
 ```
@@ -46,7 +46,7 @@
               <a href="">About Us</a
               ><a href=""
                 ><img
-                  src="https://img.icons8.com/material-outlined/50/808080/about.png"
+                  src="https://img.icons8.com/material-outlined/50/ffffff/about.png"
               /></a>
             </li>
             <li>

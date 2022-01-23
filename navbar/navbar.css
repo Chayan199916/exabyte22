@@ -1,3 +1,7 @@
+/**/
+/*buttons*/
+/**/
+
 .open {
   position: fixed;
   top: 10px;
@@ -23,6 +27,10 @@
   display: flex;
   flex-direction: column;
 }
+
+/**/
+/*top section/all options*/
+/**/
 
 .sidebar div {
   border-right: 1px solid gray;
@@ -60,11 +68,19 @@
   font-weight: 500;
 }
 
+/**/
+/*icons container*/
+/**/
+
 .icons__container {
   padding: 5;
   display: flex;
   justify-content: space-around;
 }
+
+/**/
+/*for smaller devices*/
+/**/
 
 @media all and (min-width: 800px) {
   .open {
@@ -98,11 +114,20 @@
     background-color: #161616;
   }
 
+  .sidebar div {
+    margin-right: 0;
+  }
+
   .sidebar li {
     flex-direction: row-reverse;
   }
   .sidebar li img {
     margin-right: 10px;
+  }
+  .selected a img {
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 3px;
   }
 
   .options__container {
