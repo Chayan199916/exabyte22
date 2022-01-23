@@ -2,15 +2,11 @@
 /*buttons*/
 /**/
 
-.open {
-  position: fixed;
-  top: 10px;
-  right: 55px;
-}
-.close {
-  position: absolute;
-  top: 10px;
-  right: 20px;
+.nav__btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .sidebar {
@@ -83,7 +79,7 @@
 /**/
 
 @media all and (min-width: 800px) {
-  .open {
+  .nav__btns {
     display: none;
   }
 
@@ -95,17 +91,11 @@
   .sidebar li img {
     margin-left: 10px;
   }
-  .close {
-    display: none;
-  }
 }
 
 @media all and (max-width: 800px) {
-  .open {
-    display: block;
-  }
-  .close {
-    display: block;
+  .nav__btns {
+    display: flex;
   }
 
   .sidebar {

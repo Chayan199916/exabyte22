@@ -11,16 +11,7 @@
 
 1. link the navbar.js and navbar.css files
 2. add "selected" class in the li of the respective page and change the icon color from 808080 to ffffff in the icon image url
-3. copy the below code for "menu" icon and paste
-4. [important] please add 50px margin right in middle section for mobile & tablet view. Otherwise middle content will be covered by the page indicators in right side.
-
-```
-   <img
-      class="open"
-      onclick="openNav()"
-      src="https://img.icons8.com/ios-glyphs/30/ffffff/menu--v1.png"
-   />
-```
+3. [important] please add 50px margin right in middle section for mobile & tablet view. Otherwise middle content will be covered by the page indicators in right side.
 
 4. copy the code for snippet for navbar and paste in the bottom of pages
    [for example please check about/about.html]
@@ -28,11 +19,16 @@
 ```
       <!--right navbar-->
       <div class="sidebar" id="mySidebar">
-        <img
-          class="close"
-          onclick="closeNav()"
-          src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png"
-        />
+        <div class="nav__btns">
+          <img
+            onclick="openNav()"
+            src="https://img.icons8.com/ios-glyphs/30/ffffff/menu--v1.png"
+          />
+          <img
+            onclick="closeNav()"
+            src="https://img.icons8.com/ios-glyphs/30/ffffff/delete-sign.png"
+          />
+        </div>
         <div class="options__container">
           <ul>
             <li>
@@ -42,11 +38,11 @@
                   src="https://img.icons8.com/material-rounded/50/808080/home.png"
               /></a>
             </li>
-            <li class="selected">
-              <a href="">About Us</a
-              ><a href=""
+            <li>
+              <a href="../about/about.html">About Us</a
+              ><a href="../about/about.html"
                 ><img
-                  src="https://img.icons8.com/material-outlined/50/ffffff/about.png"
+                  src="https://img.icons8.com/material-outlined/50/808080/about.png"
               /></a>
             </li>
             <li>
@@ -77,11 +73,11 @@
                   src="https://img.icons8.com/external-wanicon-lineal-wanicon/50/808080/external-sponsored-digital-content-wanicon-lineal-wanicon.png"
               /></a>
             </li>
-            <li>
-              <a href="../contact/contact.html">Contact us</a
-              ><a href="../contact/contact.html"
+            <li class="selected">
+              <a href="">Contact us</a
+              ><a href=""
                 ><img
-                  src="https://img.icons8.com/ios/50/808080/online-support.png"
+                  src="https://img.icons8.com/ios/50/ffffff/online-support.png"
               /></a>
             </li>
           </ul>
