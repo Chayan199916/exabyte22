@@ -9,11 +9,11 @@
 
 @font-face {
   font-family: "CD";
-  src: url(../fonts/caviar_dreams/CaviarDreams_Bold.ttf);
+  src: url(../font/CaviarDreams.ttf);
 }
 @font-face {
   font-family: "LG";
-  src: url(../fonts/League-Gothic/LeagueGothic-Regular.otf);
+  src: url(../font/leaguegothic-regular-webfont.woff);
 }
 
 .container {
@@ -121,6 +121,11 @@ textarea {
 /**/
 /*mobile responsive*/
 /**/
+@media all and (max-width: 800px) {
+  .main {
+    margin-right: 50px;
+  }
+}
 
 @media all and (max-width: 650px) {
   .container {

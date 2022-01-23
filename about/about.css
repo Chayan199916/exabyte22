@@ -101,6 +101,11 @@
 /**/
 /*mobile responsive*/
 /**/
+@media all and (max-width: 800px) {
+  .main {
+    margin-right: 50px;
+  }
+}
 
 @media all and (max-width: 650px) {
   .container {

@@ -5,5 +5,5 @@ function openNav() {
 
 function closeNav() {
   console.log("closing");
-  document.getElementById("mySidebar").style.right = "-200px";
+  document.getElementById("mySidebar").style.right = "-190px";
 }
