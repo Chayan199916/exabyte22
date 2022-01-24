@@ -40,8 +40,10 @@ body {
 
 .details {
   width: 30%;
+  top: 0;
+  left: 0;
   height: 100%;
-  margin-left: 50px;
+  margin-left: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -51,8 +53,8 @@ body {
 
 #logo {
   position: absolute;
-  top: 50px;
-  height: 80px;
+  top: 25px;
+  height: 70px;
   width: 80px;
 }
 
@@ -60,7 +62,7 @@ body {
   text-transform: uppercase;
   font-family: "LeagueGothic";
   text-align: left;
-  font-size: 8rem;
+  font-size: 5rem;
   letter-spacing: 7px;
   color: white;
   font-weight: 200;
@@ -73,12 +75,6 @@ body {
   margin-bottom: 10px;
 }
 
-#sub-title {
-  font-size: 1.6rem;
-  text-align: left;
-  color: white;
-}
-
 #next {
   display: flex;
   align-items: center;
@@ -86,25 +82,25 @@ body {
 }
 
 #next #arrow {
-  width: 70px;
-  height: 40px;
+  width: 60px;
+  height: 30px;
 }
 
 #next a {
   color: #fff;
   font-family: Montserrat;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 5px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   margin-left: 1rem;
   margin-right: -8rem;
 }
 
 #next #circle {
-  margin-left: 10px;
+  margin-left: 12px;
 }
 
 .swiper {
@@ -164,9 +160,10 @@ body {
 .next p {
   text-transform: uppercase;
   margin-bottom: 5px;
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: #fff;
   letter-spacing: 25px;
+  font-weight: 500;
 }
 
 .next img {
