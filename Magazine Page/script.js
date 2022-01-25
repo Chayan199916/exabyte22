@@ -6,8 +6,8 @@ const swiper = new Swiper(".swiper", {
   cubeEffect: {
     shadow: true,
     slideShadows: true,
-    shadowOffset: 20,
-    shadowScale: 0.94,
+    shadowOffset: 60,
+    shadowScale: 5.94,
   },
 
   // Navigation arrows
