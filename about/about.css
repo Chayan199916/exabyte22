@@ -21,7 +21,7 @@
   height: 100vh;
   color: whitesmoke;
 
-  background-image: url(../images/BGaboutus.png);
+  background-image: url(../assets/backgrounds/BGaboutus.png);
 }
 
 /**/
@@ -43,7 +43,7 @@
   font-family: CD;
 }
 .logo img {
-  height: 50;
+  height: 50px;
   object-fit: contain;
   margin-right: 1rem;
 }

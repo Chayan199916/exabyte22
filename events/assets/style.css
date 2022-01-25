@@ -185,3 +185,9 @@ body {
 .swiper-button-next.swiper-button-disabled {
   display: none;
 }
+
+@media all and (max-width: 800px) {
+  .swiper {
+    margin-left: 50px;
+  }
+}
