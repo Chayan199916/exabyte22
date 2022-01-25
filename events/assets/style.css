@@ -35,6 +35,10 @@ body {
   z-index: -1;
 }
 
+.sidebar {
+  z-index: 1;
+}
+
 .outer-box {
   display: flex;
   flex-direction: row;
