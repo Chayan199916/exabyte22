@@ -1,0 +1,381 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: LeagueGothic;
+    src: url(font/league_gothic-webfont.woff);
+}
+body
+{
+    background-image: url(./BG.png);
+    height: 10px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo
+{
+    color: #fff;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.9rem;
+    margin: 2rem 3rem;
+}
+
+.logo:hover
+{
+    font-size: 2.5rem;
+    transition: all 0.3ms ease;
+}
+.head
+{
+    margin-top: 10px;
+    margin-left: 2.8rem;
+}
+
+.head h1
+{
+    font-family: 'LeagueGothic';
+    color: #fff;
+    font-size: 70px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.head p
+{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    width: 45%;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.head #hori
+{
+    width: 26%;
+    height: 2px;
+    opacity: 10%;
+    background-color : #3d3c3c;
+    margin-left: -20rem;
+    margin-bottom: 2rem;
+}
+
+.head #vert
+{
+    width: 74%;
+    height: 1px;
+    opacity: 10%;
+    background-color : #3d3c3c;
+    transform: rotate(90deg);
+    margin-left:-18rem;
+
+
+}
+
+.next
+{
+    display: flex;
+    margin-left: 2.8rem;
+    align-items: center;
+    margin-top: -5rem;
+}
+
+
+
+
+.next #arrow
+{
+    width: 70px;
+    height: 40px;
+}
+.next a
+{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: -9rem;
+    margin-top: 4px;
+}
+
+.arrownext
+{
+    text-align: center;
+    margin-top: -2rem;
+}
+
+
+.arrownext h2
+{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    margin-bottom: 3px;
+}
+
+.social
+{
+    display: flex;
+    margin-left: 80rem;
+    margin-top: -2rem;
+}
+
+.social a img
+{
+    width: 40px;
+    padding: 0 5px;
+}
+
+/*
+.swiper-container
+{
+    width: 20%;
+    margin-top: -18rem;
+    padding-bottom: 20px;
+}
+.swiper-slide
+{
+    width: 80px;
+    height: 430px;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+}
+
+.swiper-slide .imgbx
+{
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.swiper-slide .imgbx img
+{
+    width: 100%;
+}
+.swiper-slide .details
+{
+    box-sizing: border-box;
+    font-family: 'Monteserrat';
+    padding: 20px;
+}
+*/
+
+.teamsection
+{
+    margin-top: -8rem;
+}
+
+.main{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-card{
+    position: relative;
+    font-family: sans-serif;
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: .6s;
+    margin: 0 25px;
+  }
+  .profile-card:hover{
+    border-radius: 10px;
+    height: 260px;
+  }
+  .profile-card .img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+    z-index: 99;
+  }
+  .profile-card:hover .img{
+    transform: translateY(-60px);
+  }
+  .img img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: .6s;
+  }
+  .profile-card:hover img{
+    border-radius: 10px;
+  }
+  .caption{
+    text-align: center;
+    transform: translateY(-80px);
+    opacity: 0;
+    transition: .6s;
+  }
+  .profile-card:hover .caption{
+    opacity: 1;
+  }
+  .caption h3{
+    font-size: 21px;
+    font-family: sans-serif;
+  }
+  .caption p{
+    font-size: 15px;
+    color: #0c52a1;
+    font-family: sans-serif;
+    margin: 2px 0 9px 0;
+  }
+  .caption .social-links a{
+    color: #333;
+    margin-right: 15px;
+    font-size: 21px;
+    transition: .6s;
+  }
+  .social-links a:hover{
+    color: #0c52a1;
+  }
+
+
+
+@media (max-width : 600px)
+{
+    body
+    {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .logo
+{
+    font-size: 2.5rem;
+    margin: 2rem 2rem;
+}
+
+.logo:hover
+{
+    font-size: 2.2rem;
+    transition: all 0.3ms ease;
+}
+.head
+{
+    margin-top: 50px;
+    margin-left: 2rem;
+    margin-bottom: 12rem;
+}
+
+.head h1
+{
+    font-size: 65px;
+}
+.head #hori
+{
+    margin-left: 2.5rem;
+}
+
+
+
+.next 
+{
+opacity: 0%;
+}
+.arrownext
+{
+    opacity: 0%;
+}
+.teamsection
+{
+    margin-top: 30rem;
+}
+.main{
+    width: 100%;
+    height: 40vh;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30rem;
+
+}
+  .profile-card{
+    position: relative;
+    font-family: sans-serif;
+    width: 220px;
+    height: 220px;
+    margin-top: 3rem;
+}
+  .profile-card:hover{
+    border-radius: 10px;
+    height: 260px;
+  }
+
+}
+
+
+@media (max-width : 990px)
+{
+    body
+    {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .logo
+{
+    font-size: 2.5rem;
+    margin: 2rem 2rem;
+}
+
+.logo:hover
+{
+    font-size: 2.2rem;
+    transition: all 0.3ms ease;
+}
+.head
+{
+    margin-top: 50px;
+    margin-left: 2rem;
+}
+
+.head h1
+{
+    font-size: 65px;
+}
+.head #hori
+{
+    opacity: 10%;
+    margin-left: -4rem;
+}
+.head #vert
+{
+    opacity: 0%;
+}
+
+.teamsection
+{
+    margin-top: 2rem;
+}
+.main{
+    height: 50vh;
+}
+
+.next 
+{
+opacity: 0%;
+}
+.arrownext
+{
+    opacity: 0%;
+}
+}
