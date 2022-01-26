@@ -68,8 +68,8 @@
               /></a>
             </li>
             <li>
-              <a href="../Sponsers/sponsers.html">Sponsors</a
-              ><a href="../Sponsers/sponsers.html"
+              <a href="../Sponsers/sponsors2.html">Sponsors</a
+              ><a href="../Sponsers/sponsors2.html"
                 ><img
                   src="https://img.icons8.com/external-wanicon-lineal-wanicon/50/808080/external-sponsored-digital-content-wanicon-lineal-wanicon.png"
               /></a>
@@ -83,7 +83,7 @@
             </li>
           </ul>
         </div>
-        <div class="icons__container">
+        <!--div class="icons__container">
           <a href=""
             ><img
               src="https://img.icons8.com/ios/30/ffffff/facebook-new.png"
@@ -96,6 +96,6 @@
             ><img
               src="https://img.icons8.com/ios/30/ffffff/instagram-new--v1.png"
           /></a>
-        </div>
+        </div-->
       </div>
 ```
