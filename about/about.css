@@ -150,9 +150,9 @@
 .countdown-value span:before {
   content: " ";
   position: absolute;
-  bottom: -30px;
+  bottom: -35px;
   left: 0;
-  width: 100%;
+  width: 60px;
   height: 35px;
   border-radius: 0 0 8px 8px;
   background: rgba(179, 230, 236, 0.4);
@@ -195,16 +195,24 @@
   .main {
     justify-content: flex-start;
   }
-  .countdown-value > span {
-    max-width: 200px;
+  .countdown {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 250px;
+    margin: 5rem auto;
   }
-  .countdown-value h2 {
-    font-size: 10px;
+  .countdown-value > span {
+    max-width: 150px;
+    font-size: 40px;
+  }
+  .countdown h2 {
+    font-size: 2.5em;
     font-weight: 500;
     letter-spacing: 0.1rem;
   }
-  .countdown-value h2 span {
-    font-size: 15px;
-    letter-spacing: 0.4rem;
+  .countdown h2 span {
+    font-size: 0.35em;
+    letter-spacing: 0.3rem;
   }
 }
