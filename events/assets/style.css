@@ -224,9 +224,10 @@ body {
     display: none;
   }
   .swiper {
-    width: 200px;
-    height: 300px;
-    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 15px;
   }
   .card {
     height: 300px !important;
