@@ -207,4 +207,10 @@ body {
   #next {
     display: none;
   }
+  .swiper {
+    width: 250px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
 }
