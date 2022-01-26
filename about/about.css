@@ -54,31 +54,19 @@
   font-weight: 600;
   font-family: LG;
 }
-.btnouter {
+
+.ellipse {
   margin-top: auto;
-  margin-bottom: 3rem;
-  margin-left: 2rem;
-  text-align: center;
-  width: fit-content;
-  border: 5px solid lightgray;
-  border-left: none;
-  height: 90px;
-  width: 90px;
-  padding: 10px;
-  border-radius: 45px;
+  margin-bottom: 2rem;
   display: flex;
   align-items: center;
 }
-.btninner {
-  border: 5px solid #0f1010;
-  padding: 10;
-  width: fit-content;
-  border-radius: 45px;
-  height: 85;
-  width: 85;
-  display: flex;
-  align-items: center;
-  margin-left: -12px;
+.ellipse span {
+  font-size: larger;
+  font-weight: bold;
+  margin-right: -8rem;
+  text-transform: uppercase;
+  margin-left: 1rem;
 }
 
 /**/
@@ -198,7 +186,7 @@
   .container {
     flex-direction: column;
   }
-  .btnouter {
+  .ellipse {
     display: none;
   }
   .main {
