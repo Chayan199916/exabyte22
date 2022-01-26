@@ -18,21 +18,20 @@
 
 .container {
   display: flex;
-  height: 100vh;
+  background-image: url(../assets/backgrounds/contactUsBg.jpg);
+  background-size: contain;
+  background-position: center;
   color: whitesmoke;
-
-  background-image: url(../assets/backgrounds/BGcontacts.png);
+  height: 100vh;
 }
 
 /**/
-/*left section*/
+/*main content*/
 /**/
 
-.left {
-  min-width: 240px;
+.main {
+  flex: 1;
   padding: 1rem;
-  display: flex;
-  flex-direction: column;
 }
 
 .logo {
@@ -41,6 +40,7 @@
   font-size: large;
   cursor: pointer;
   font-family: CD;
+  font-weight: bold;
 }
 .logo img {
   height: 50;
@@ -48,52 +48,34 @@
   margin-right: 1rem;
 }
 .sidebar__header {
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-size: 48px;
   letter-spacing: 2px;
   font-weight: 600;
   font-family: LG;
 }
-.helper__container {
-  margin-top: 2rem;
-}
-.helper__container .row {
-  display: flex;
-  margin-bottom: 1rem;
-  font-size: small;
-}
-.helper__container .row img {
-  height: 30;
-  object-fit: contain;
-  margin-right: 10px;
+
+.main h1 {
+  background: -webkit-linear-gradient(#0b6bd8, #08b3b9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-/**/
-/*main section*/
-/**/
-
-.main {
-  padding: 1rem;
-  flex: 1;
-  border-left: 1px solid lightgray;
-
+.form__container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
-.main h1 {
-  margin-bottom: 1rem;
-}
-.main form {
+
+.form__container form {
   margin-top: 1rem;
   width: 300px;
 }
-.main form label {
+.form__container form label {
   font-size: small;
   font-weight: 500;
 }
-.main form input,
+.form__container form input,
 textarea {
   padding: 5px;
   outline-width: 0;
@@ -104,13 +86,12 @@ textarea {
   width: 100%;
 }
 
-.main button {
+.form__container button {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: black;
+  background-image: linear-gradient(to bottom right, #0b6bd8, #08b3b9);
 
-  color: whitesmoke;
   font-weight: 600;
   font-size: large;
 
@@ -118,23 +99,34 @@ textarea {
   width: 100%;
 }
 
+.helper__container {
+  margin-top: 1rem;
+  display: flex;
+}
+.helper__container .row {
+  display: flex;
+  margin-bottom: 1rem;
+  font-size: small;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.helper__container .row img {
+  height: 30;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
 /**/
 /*mobile responsive*/
 /**/
-@media all and (max-width: 800px) {
-  .main {
-    margin-right: 50px;
-  }
-}
 
 @media all and (max-width: 650px) {
-  .container {
+  .form__container {
+    margin-right: 60px;
+    align-items: flex-start;
+  }
+
+  .helper__container {
     flex-direction: column;
-  }
-  .btnouter {
-    display: none;
-  }
-  .main {
-    justify-content: flex-start;
   }
 }
