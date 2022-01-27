@@ -24,15 +24,9 @@
   background-image: url(../../assets/backgrounds/BGaboutus.png);
 }
 
-/**/
-/*left section*/
-/**/
-
-.left {
-  min-width: 240px;
+.main {
+  flex: 1;
   padding: 1rem;
-  display: flex;
-  flex-direction: column;
 }
 
 .logo {
@@ -41,6 +35,7 @@
   font-size: large;
   cursor: pointer;
   font-family: CD;
+  font-weight: bold;
 }
 .logo img {
   height: 50px;
@@ -49,51 +44,12 @@
 }
 .sidebar__header {
   margin-top: 3rem;
+  margin-bottom: 1rem;
   font-size: 48px;
   letter-spacing: 2px;
   font-weight: 600;
   font-family: LG;
 }
-
-.ellipse {
-  margin-top: auto;
-  margin-bottom: 2rem;
-  display: flex;
-  align-items: center;
-}
-.ellipse a {
-  text-decoration: none;
-  color: white;
-  font-size: larger;
-  font-weight: bold;
-  margin-right: -8rem;
-  text-transform: uppercase;
-  margin-left: 1rem;
-  z-index: 1;
-}
-
-/**/
-/*main section*/
-/**/
-
-.main {
-  padding: 1rem 6.5rem;
-  flex: 1;
-  border-left: 1px solid lightgray;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.main h1 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.main p {
-  font-size: 1rem;
-}
-
-/* countdown timer */
 
 .countdown {
   margin: 6rem auto;
@@ -179,30 +135,14 @@
   content: "Seconds";
 }
 
-/**/
-/*mobile responsive*/
-/**/
-
-@media (max-width: 800px) {
+@media all and (max-width: 800px) {
   .main {
     margin-right: 50px;
   }
-}
+  .sidebar__header {
+    margin-top: 2rem;
+  }
 
-@media (max-width: 650px) {
-  .container {
-    flex-direction: column;
-  }
-  .ellipse {
-    display: none;
-  }
-  .main {
-    justify-content: center;
-    margin-left: 10px;
-    padding: 10px;
-    width: 200px;
-    font-size: 10px;
-  }
   .countdown {
     display: flex;
     flex-direction: column;
