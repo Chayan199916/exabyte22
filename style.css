@@ -111,7 +111,7 @@ canvas {
 #circle-progress > circle {
   stroke-dasharray: 1150;
   stroke-dashoffset: 1150;
-  animation: progressanim 10s linear forwards;
+  animation: progressanim 5s linear forwards;
 }
 
 @keyframes progressanim {

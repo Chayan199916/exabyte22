@@ -9,11 +9,11 @@
 
 @font-face {
   font-family: "CD";
-  src: url(../font/CaviarDreams.ttf);
+  src: url(../../font/CaviarDreams.ttf);
 }
 @font-face {
   font-family: "LG";
-  src: url(../font/leaguegothic-regular-webfont.woff);
+  src: url(../../font/leaguegothic-regular-webfont.woff);
 }
 
 .container {
@@ -21,7 +21,7 @@
   height: 100vh;
   color: whitesmoke;
 
-  background-image: url(../assets/backgrounds/BGaboutus.png);
+  background-image: url(../../assets/backgrounds/BGaboutus.png);
 }
 
 /**/
@@ -77,16 +77,20 @@
 /**/
 
 .main {
-  padding: 1rem;
+  padding: 1rem 6.5rem;
   flex: 1;
   border-left: 1px solid lightgray;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .main h1 {
+  font-size: 6rem;
   margin-bottom: 1rem;
+}
+
+.main p {
+  font-size: 1.6rem;
 }
 
 /* countdown timer */

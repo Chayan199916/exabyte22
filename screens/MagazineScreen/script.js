@@ -3,12 +3,6 @@ const swiper = new Swiper(".swiper", {
 
   effect: "cube",
   grabCursor: true,
-  cubeEffect: {
-    shadow: true,
-    slideShadows: true,
-    shadowOffset: 60,
-    shadowScale: 5.94,
-  },
 
   // Navigation arrows
   navigation: {

@@ -27,7 +27,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: url("../assets/backgrounds/BGmagazines.png");
+  background: url("../../assets/backgrounds/BGmagazines.png");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -117,13 +117,18 @@ body {
 }
 
 .swiper {
-  width: 25%;
-  height: 70%;
+  width: 35%;
+  height: 85%;
 }
 
 .swiper-slide {
-  background-color: aliceblue;
+  background-color: rgba(255, 255, 255, 0.075);
   cursor: pointer;
+}
+
+.groups {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .swiper-slide > img {
@@ -147,16 +152,49 @@ body {
 }
 
 .swiper-button-next {
-  background-image: url("../assets/svg/chevron-right.svg");
+  background-image: url("../../assets/svg/chevron-right.svg");
 }
 
 .swiper-button-prev {
-  background-image: url("../assets/svg/chevron-left.svg");
+  background-image: url("../../assets/svg/chevron-left.svg");
 }
 
 .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
   display: none;
+}
+
+.profile-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: "CD";
+}
+
+.first-swiper > img {
+  height: 420px;
+  width: 420px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.second-swiper > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.first-swiper > h1 {
+  font-size: 3rem;
+}
+
+.first-swiper > p {
+  font-size: 2rem;
 }
 
 .next {

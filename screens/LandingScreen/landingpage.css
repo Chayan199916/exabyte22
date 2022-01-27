@@ -5,11 +5,11 @@
 }
 @font-face {
   font-family: LeagueGothic;
-  src: url(../font/leaguegothic-regular-webfont.woff);
+  src: url(../../font/leaguegothic-regular-webfont.woff);
 }
 @font-face {
   font-family: "CD";
-  src: url(../font/CaviarDreams.ttf);
+  src: url(../../font/CaviarDreams.ttf);
 }
 
 #particles-js {
@@ -19,7 +19,7 @@
   z-index: -1;
 }
 body {
-  background: url(../assets/backgrounds/BGhome.png);
+  background: url(../../assets/backgrounds/BGhome.png);
 }
 
 .container {
@@ -52,7 +52,7 @@ body {
 .head h1 {
   font-family: "LeagueGothic";
   color: #fff;
-  font-size: 90px;
+  font-size: 10rem;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -61,7 +61,7 @@ body {
 .head p {
   color: #fff;
   font-family: Montserrat;
-  font-size: 15px;
+  font-size: 1.6rem;
   width: 45%;
   margin-bottom: 3rem;
 }
