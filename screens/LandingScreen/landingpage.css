@@ -52,7 +52,7 @@ body {
 .head h1 {
   font-family: "LeagueGothic";
   color: #fff;
-  font-size: 10rem;
+  font-size: 7.5rem;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -61,7 +61,7 @@ body {
 .head p {
   color: #fff;
   font-family: Montserrat;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   width: 45%;
   margin-bottom: 3rem;
 }
