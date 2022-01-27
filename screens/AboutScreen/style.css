@@ -85,12 +85,12 @@
   justify-content: center;
 }
 .main h1 {
-  font-size: 6rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .main p {
-  font-size: 1.6rem;
+  font-size: 1rem;
 }
 
 /* countdown timer */
@@ -197,18 +197,23 @@
     display: none;
   }
   .main {
-    justify-content: flex-start;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 10px;
+    width: 200px;
+    font-size: 10px;
   }
   .countdown {
     display: flex;
     flex-direction: column;
     height: fit-content;
     width: 250px;
-    margin: 5rem auto;
+    margin-top: 3.1rem;
+    margin-left: 10px;
   }
   .countdown-value > span {
     max-width: 150px;
-    font-size: 40px;
+    font-size: 35px;
   }
   .countdown h2 {
     font-size: 2.5em;
