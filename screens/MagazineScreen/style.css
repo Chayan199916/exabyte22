@@ -191,7 +191,27 @@ body {
 /**/
 /*responsive*/
 /**/
+@media (max-width: 800px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .details {
+    height: fit-content;
+    width: 100%;
+  }
+
+  #next {
+    display: none;
+  }
+  .swiper {
+    width: 400px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+}
 @media (max-width: 650px) {
   .wrapper {
     display: flex;
