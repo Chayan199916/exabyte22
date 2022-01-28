@@ -226,8 +226,7 @@ body {
   .swiper {
     width: 410px;
     height: 410px;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin: 4.3em auto;
   }
   .card {
     height: 460px !important;
@@ -257,8 +256,7 @@ body {
   .swiper {
     width: 310px;
     height: 310px;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin: 4.3em auto;
   }
   .card {
     height: 360px !important;
