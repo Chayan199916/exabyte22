@@ -125,6 +125,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-y: scroll;
 }
 
 .form__container form {
@@ -207,4 +208,31 @@ button {
   .helper__container {
     flex-direction: column;
   }
+}
+
+@media all and (max-width: 350px) {
+  .form__container form {
+    width: 80vw;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.76);
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
