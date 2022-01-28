@@ -128,13 +128,13 @@ body {
 }
 
 .form__container form {
-  width: 320px;
+  width: 280px;
 }
 
 .form__container input,
 textarea,
 button {
-  padding: 14px;
+  padding: 10px;
   margin-top: 5px;
   margin-bottom: 10px;
   outline-width: 0;
@@ -148,6 +148,7 @@ button {
 
 .form__container label {
   font-weight: 600;
+  font-size: small;
   color: lightgray;
 }
 
@@ -160,7 +161,7 @@ button {
 
 .helper__container {
   display: flex;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .helper__container .row {
