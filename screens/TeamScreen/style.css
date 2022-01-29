@@ -21,13 +21,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: url("../../assets/backgrounds/ourteam.png");
+
 }
 
 .bg {
   position: absolute;
-  height: 100%;
+  height: 150%;
   width: 100%;
-  background: url("../../assets/backgrounds/BGmagazines.png");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -225,6 +226,105 @@ body {
   margin-right: 20px;
 }
 
+.container
+{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  top: 20%;
+}
+
+.container .card
+{
+  position: relative;
+  width: 250px;
+  height: 350px;
+  background: rgba(255, 255, 255, 0.05);
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+
+.container .card .content
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.container .card:hover .content
+{
+  opacity: 1;
+  transform: translateY(-20px);
+}
+
+.container .card .content .imgBx
+{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgba(0,0,0,0.25);
+}
+
+.container .card .content .imgBx img
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .card .content .contentBx h3
+{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
+}
+
+
+.container .card .content .contentBx h3 span
+{
+  font-size: 12px;
+  font-weight: 300;
+  transform: initial;
+}
+
+.container .card .sci
+{
+ margin: 0 5px;
+ transform: translateY(40px);
+ transition: 0.5s;
+ color: #fff;
+ opacity: 0;
+}
+.container .card:hover .sci
+{ 
+  transform: translateY(0px);
+  opacity: 1;
+
+}
 .sidebar {
   z-index: 10;
 }
@@ -234,29 +334,29 @@ body {
 /**/
 
 @media (max-width: 800px) {
-  .first-swiper > img {
-    height: 180px;
-    width: 180px;
-    border-radius: 50%;
-    object-fit: cover;
+  .wrapper {
+    display: initial;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
-
-  .second-swiper > img {
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-  }
+ .container
+ {
+   top: -80%;
+ }
 }
 
 @media (max-width: 650px) {
   .wrapper {
-    display: flex;
+    display: initial;
     width: 100%;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
+ .container
+ {
+   top: 0%;
+ }
   .details {
     height: fit-content;
     width: 100%;
