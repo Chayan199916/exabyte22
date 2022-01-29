@@ -46,8 +46,7 @@ body {
 .main #about, .main #see {
   font-size: 1.8rem;
   color: #fff;
-  text-align: justify;
-  line-height: 35px;
+  margin-top: 2rem;
 }
 
 .details {
@@ -227,8 +226,8 @@ body {
 
 @media (max-width: 650px) {
   .wrapper {
-    display: flex;
-    flex-direction: column;
+    display: initial;
+
   }
   .main #about
   {
