@@ -24,15 +24,46 @@
 
       <!--main content-->
       <div class="form__container">
-        <form>
+        <form
+          action="https://formsubmit.co/2ad2c504e576b1d74790b5a0d8a3d3e0"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_subject"
+            value="From eXabyte Contact form"
+          />
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5500/exabyte22/screens/ContactScreen/response.html"
+          />
           <label for="name">Name</label><br />
-          <input class="popUp" type="text" id="name" required /><br />
+          <input
+            class="popUp"
+            type="text"
+            id="name"
+            name="name"
+            required
+          /><br />
           <label for="email">Email</label><br />
-          <input class="popUp" type="email" required id="email" /><br />
-          <label for="phone">Phone</label><br />
-          <input class="popUp" type="number" id="phone" /><br />
+          <input
+            class="popUp"
+            type="email"
+            name="email"
+            required
+            id="email"
+          /><br />
+          <!--label for="phone">Phone</label><br />
+          <input class="popUp" type="number" id="phone" /><br /-->
           <label for="comment">Message</label><br />
-          <textarea class="popUp" type="text" required id="comment"></textarea
+          <textarea
+            class="popUp"
+            type="text"
+            name="message"
+            required
+            id="comment"
+          ></textarea
           ><br />
           <br />
           <button class="popUp" type="submit">Submit Your Request</button>
