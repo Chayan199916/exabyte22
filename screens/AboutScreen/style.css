@@ -43,9 +43,11 @@ body {
   font-family: Montserrat;
 }
 
-.main p {
-  font-size: 5rem;
+.main #about, .main #see {
+  font-size: 1.8rem;
   color: #fff;
+  text-align: justify;
+  line-height: 35px;
 }
 
 .details {
@@ -228,6 +230,10 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .main #about
+  {
+    margin-top: 5rem;
+  }
 
   .details {
     height: fit-content;
@@ -245,17 +251,63 @@ body {
   }
 }
 
-@media all and (max-width: 800px) {
+@media all and (min-width: 650px) {
   .main {
-    margin-right: 50px;
+    margin-right: 80px;
   }
 
   .main p {
     font-size: 1.4rem;
   }
+  .bg
+ {
+   height: 190%;
+ }
+ .main {
+  padding: 10px;
+  font-size: 10px;
+  margin-top: 15rem;
+}
+.main #about, .main #see {
+  font-size: 1.8rem;
+  text-align: justify;
+}
+.countdown
+{
+  justify-content: center;
+  align-items: center;
+}
+
+}
+@media all and (min-width: 800px)
+{
+  .bg
+  {
+    height: 190%;
+  }
+  .main {
+   padding: 10px;
+   font-size: 10px;
+   margin-top: 18rem;
+ }
+ .main #about, .main #see {
+   font-size: 1.8rem;
+   text-align: justify;
+ }
+ .countdown
+ {
+   justify-content: center;
+   align-items: center;
+ }
 }
 
 @media (max-width: 650px) {
+  
+ .bg
+ {
+   height: 190%;
+ }
+  
   .container {
     flex-direction: column;
   }
@@ -263,18 +315,14 @@ body {
     display: none;
   }
   .main {
-    display: flex;
-    width: 80%;
-    height: 100%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-    padding: 10px;
+    margin-left: 2px;
+    padding: 2px;
     font-size: 10px;
+    margin-top: 18rem;
   }
-  .main p {
-    font-size: 1.2rem;
+  .main #about, .main #see {
+    font-size: 1.8rem;
+    text-align: left;
   }
 
   .countdown {
@@ -283,7 +331,8 @@ body {
     height: fit-content;
     width: 100%;
     margin-top: 5rem;
-    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
   }
   .countdown-value > span {
     max-width: 150px;

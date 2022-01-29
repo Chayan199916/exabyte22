@@ -46,7 +46,7 @@ body {
 }
 
 .head {
-  margin-top: 100px;
+  margin-top: 180px;
   margin-left: 2.8rem;
 }
 
@@ -121,6 +121,11 @@ body {
   .main {
     margin-right: 50px;
   }
+  .head h1
+  {
+    font-size: 100px
+  }
+  
 }
 
 @media (max-width: 600px) {
