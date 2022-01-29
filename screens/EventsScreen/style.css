@@ -19,10 +19,8 @@
 body {
   height: 100vh;
   width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+
 }
 
 .background {
@@ -37,22 +35,30 @@ body {
 
 .sidebar {
   z-index: 1;
-  margin-right: -52rem;
+  margin-left: 22rem;
 }
 
+
 .outer-box {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: auto 100px auto;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
   font-family: "Montserrat";
+  flex-wrap: wrap;
 }
 .mainbox, .btn2
 {
   justify-content: center;
   align-items: center;
+}
+.mainbox
+{
+  align-items: center;
+  justify-content: center;
+  margin-right: ;
 }
 .btn2 
 {
@@ -269,6 +275,11 @@ body {
     padding: 0 !important;
     font-size: 10px !important;
   }
+  .sidebar {
+    z-index: 1;
+    margin-left: 0rem;
+  }
+
 }
 @media (max-width: 650px) {
   .outer-box {
@@ -304,8 +315,20 @@ body {
     padding: 0 !important;
     font-size: 8px !important;
   }
+  .sidebar {
+    z-index: 1;
+    margin-left: 0rem;
+  }
 }
 
 #mySidebar > .options__container > ul {
   padding-left: 0 !important;
+}
+
+@media (max-width: 1200px) 
+{
+  .sidebar {
+    z-index: 1;
+    margin-left: 0rem;
+  }
 }

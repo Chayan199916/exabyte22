@@ -44,9 +44,9 @@ body {
 }
 
 .main #about, .main #see {
-  font-size: 1.8rem;
+  font-size: 1rem;
   color: #fff;
-  margin-top: 2rem;
+  margin-top:1rem;
 }
 
 .details {
@@ -231,7 +231,7 @@ body {
   }
   .main #about
   {
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 
   .details {
@@ -282,15 +282,15 @@ body {
 {
   .bg
   {
-    height: 190%;
+    height: 100%;
   }
   .main {
    padding: 10px;
    font-size: 10px;
-   margin-top: 18rem;
+   margin-top: 1rem;
  }
  .main #about, .main #see {
-   font-size: 1.8rem;
+   font-size: 1.3rem;
    text-align: justify;
  }
  .countdown
@@ -304,7 +304,7 @@ body {
   
  .bg
  {
-   height: 190%;
+   height: 130%;
  }
   
   .container {
@@ -316,11 +316,12 @@ body {
   .main {
     margin-left: 2px;
     padding: 2px;
-    font-size: 10px;
-    margin-top: 18rem;
+    font-size: 8px;
+    margin-top: 2rem;
+    margin-left: 1rem;
   }
   .main #about, .main #see {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     text-align: left;
   }
 
