@@ -57,6 +57,9 @@ body {
 }
 
 .logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
   display: flex;
   align-items: center;
   font-size: large;
@@ -248,7 +251,7 @@ body {
   }
 
   .main p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -271,7 +274,7 @@ body {
     font-size: 10px;
   }
   .main p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .countdown {

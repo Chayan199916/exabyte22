@@ -52,6 +52,9 @@ body {
 }
 
 .logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
   display: flex;
   align-items: center;
   font-size: large;
@@ -116,8 +119,8 @@ body {
 }
 
 .swiper {
-  width: 35%;
-  height: 85%;
+  width: 45%;
+  height: 75%;
 }
 
 .swiper-slide {
@@ -205,11 +208,11 @@ body {
   #next {
     display: none;
   }
+
   .swiper {
-    width: 400px;
-    height: 450px;
-    margin-top: 20px;
-    margin-left: 15px;
+    width: 60%;
+    height: 500px;
+    margin: 4.3em auto;
   }
 }
 @media (max-width: 650px) {
@@ -227,9 +230,8 @@ body {
     display: none;
   }
   .swiper {
-    width: 250px;
-    height: 300px;
-    margin-top: 20px;
-    margin-left: 15px;
+    width: 60%;
+    height: 400px;
+    margin: 4.3em auto;
   }
 }

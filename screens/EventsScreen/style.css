@@ -58,10 +58,13 @@ body {
 }
 
 .logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
   display: flex;
   align-items: center;
   font-size: large;
-  font-weight: 600;
+  font-weight: bold;
   font-family: CD;
   color: white;
 }
@@ -71,7 +74,6 @@ body {
   object-fit: contain;
   margin-right: 1rem;
 }
-
 #page-title {
   text-transform: uppercase;
   font-family: "LG";
@@ -226,7 +228,7 @@ body {
   .swiper {
     width: 410px;
     height: 410px;
-    margin: 4.3em auto;
+    margin: 4em auto;
   }
   .card {
     height: 460px !important;
@@ -247,6 +249,11 @@ body {
     width: 100%;
   }
 
+  .logo {
+    font-size: 2.5rem;
+    margin: 2rem 2rem;
+  }
+
   #next {
     display: none;
   }
@@ -256,7 +263,7 @@ body {
   .swiper {
     width: 310px;
     height: 310px;
-    margin: 4.3em auto;
+    margin: 4em auto;
   }
   .card {
     height: 360px !important;

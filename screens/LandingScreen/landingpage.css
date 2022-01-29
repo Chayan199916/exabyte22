@@ -27,18 +27,19 @@ body {
   z-index: 1;
 }
 
-.logo {
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
   display: flex;
   align-items: center;
   font-size: large;
-  cursor: pointer;
+  font-weight: 600;
   font-family: CD;
   color: white;
-  padding: 1rem;
-  font-family: CD;
-  font-weight: 600;
 }
-.logo img {
+
+#logo {
   height: 50px;
   object-fit: contain;
   margin-right: 1rem;
@@ -124,26 +125,17 @@ body {
     height: 10vh;
   }
 
-  .logo {
-    font-size: 2.5rem;
-    margin: 2rem 2rem;
-  }
-
-  .logo:hover {
-    font-size: 2.2rem;
-    transition: all 0.3ms ease;
-  }
   .head {
     margin-top: 120px;
     margin-left: 2rem;
   }
 
   .head h1 {
-    font-size: 55px;
+    font-size: 80px;
   }
 
   .head p {
-    font-size: 12px;
+    font-size: 20px;
     width: 75%;
     margin-bottom: 4rem;
     text-align: justify;
