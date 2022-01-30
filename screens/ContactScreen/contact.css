@@ -43,13 +43,13 @@ body {
   font-family: Montserrat;
 }
 
-.details {
+/* .details {
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 240px;
   padding: 1rem;
-}
+} */
 
 .logo-container {
   position: absolute;
@@ -194,10 +194,10 @@ button {
     flex-direction: column;
   }
 
-  .details {
+  /* .details {
     height: fit-content;
     width: 100%;
-  }
+  } */
 
   #next {
     display: none;
