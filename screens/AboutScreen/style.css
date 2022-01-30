@@ -27,7 +27,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: url("../../assets/backgrounds/BGmagazines.png");
+  background: url("../../assets/backgrounds/BGhome-min.png");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -139,6 +139,7 @@ body {
   font-size: 1rem;
 }
 
+
 /* countdown timer */
 .countdown {
   margin: 5rem auto;
@@ -159,6 +160,13 @@ body {
 .countdown:hover {
   background: #4fa7eb;
   box-shadow: 0 0 30px #4fa7eb;
+  height: 220px;
+  transition: all 0.5s ease;
+}
+
+.countdown:hover h2
+{
+  margin-top: 0px;
 }
 
 .countdown-value {
@@ -291,8 +299,14 @@ body {
  }
  .main #about, .main #see {
    font-size: 1.3rem;
-   text-align: justify;
+   text-align: center;
  }
+ .main #see 
+{
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
  .countdown
  {
    justify-content: center;
@@ -320,10 +334,17 @@ body {
     margin-top: 2rem;
     margin-left: 1rem;
   }
-  .main #about, .main #see {
+  .main #about{
     font-size: 1.3rem;
-    text-align: left;
+    text-align: justify;
+
   }
+  .main #see 
+{
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
 
   .countdown {
     display: flex;
