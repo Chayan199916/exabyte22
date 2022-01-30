@@ -43,19 +43,19 @@ body {
   font-family: Montserrat;
 }
 
-.main #about, .main #see {
+.main #about, .main  {
   font-size: 1rem;
   color: #fff;
   margin-top:1rem;
 }
 
-.details {
+/* .details {
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 240px;
   padding: 1rem;
-}
+} */
 
 .logo-container {
   position: absolute;
@@ -177,6 +177,7 @@ body {
 }
 
 .countdown-value span {
+  width: 75px;
   position: relative;
   margin: 0 6px;
   font-weight: 600;
@@ -209,7 +210,7 @@ body {
   position: absolute;
   bottom: -35px;
   left: 0;
-  width: 60px;
+  width: 75px;
   height: 35px;
   border-radius: 0 0 8px 8px;
   background: rgba(179, 230, 236, 0.4);
@@ -242,10 +243,10 @@ body {
     margin-top: 2rem;
   }
 
-  .details {
+  /* .details {
     height: fit-content;
     width: 100%;
-  }
+  } */
 
   #next {
     display: none;
@@ -266,17 +267,22 @@ body {
   .main p {
     font-size: 1.4rem;
   }
+
+  #see {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 10px 0;
+  }
   .bg
  {
-   height: 190%;
+   height: 100%;
  }
  .main {
   padding: 10px;
   font-size: 10px;
-  margin-top: 15rem;
 }
-.main #about, .main #see {
-  font-size: 1.8rem;
+.main #about, .main {
+  font-size: 1.2rem;
   text-align: justify;
 }
 .countdown
