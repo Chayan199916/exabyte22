@@ -14,7 +14,7 @@
 }
 
 .sidebar {
-  position: absolute;
+  position: fixed;
   right: 2rem;
   width: 240px;
   min-width: 240px;
@@ -23,7 +23,7 @@
   right: 0;
   height: 100vh;
   transition: 0.5s ease-in-out;
-  border-radius: 0 0 0 20px;
+  border-radius: 0 0 0 0;
   font-family: "Montserrat", sans-serif;
 
   text-align: right;
@@ -90,10 +90,10 @@
     display: none;
   }
 
-  .sidebar {
+  /* .sidebar {
     position: inherit;
     right: 0;
-  }
+  } */
 
   .sidebar li img {
     margin-left: 10px;

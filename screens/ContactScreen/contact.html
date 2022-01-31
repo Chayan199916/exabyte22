@@ -4,84 +4,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./contact.css" />
-    <link rel="stylesheet" href="../../sidebar/navbar.css" />
     <link rel="icon" href="../../assets/logos/LOGO_NO_ BG.png" />
+    <link rel="stylesheet" href="../../sidebar/navbar.css" />
     <title>eXabyte contact page</title>
   </head>
   <body>
-    <div class="bg"></div>
-    <div class="logo"></div>
-    <div class="wrapper">
-      <!--left section-->
-      <div class="details">
-        <div id="titles">
-          <div class="logo-container">
-            <img id="logo" src="../../assets/logos/LOGO_NO_ BG.png" alt="" />
-            <p>eXabyte 2022</p>
+    <div class="container">
+      <div class="main">
+        <div class="logo">
+          <img src="../../assets/logos/LOGO_NO_ BG.png" alt="" />
+          eXabyte 2022
+        </div>
+
+        <!--main content-->
+        <div class="form__container">
+          <form action="https://formsubmit.co/exabyte@sxccal.edu" method="POST">
+            <input
+              type="hidden"
+              name="_subject"
+              value="From eXabyte Contact form"
+            />
+            <input
+              type="hidden"
+              name="_next"
+              value="http://exabyte.sxccal.edu/screens/ContactScreen/response.html"
+            />
+            <label for="name">Name</label><br />
+            <input
+              class="popUp"
+              type="text"
+              id="name"
+              name="name"
+              required
+            /><br />
+            <label for="email">Email</label><br />
+            <input
+              class="popUp"
+              type="email"
+              name="email"
+              required
+              id="email"
+            /><br />
+            <!--label for="phone">Phone</label><br />
+          <input class="popUp" type="number" id="phone" /><br /-->
+            <label for="comment">Message</label><br />
+            <textarea
+              class="popUp"
+              type="text"
+              name="message"
+              required
+              id="comment"
+            ></textarea
+            ><br />
+            <br />
+            <button class="popUp" type="submit">Submit Your Request</button>
+          </form>
+          <div class="helper__container">
+            <div class="row">
+              <img src="https://img.icons8.com/ios/30/ffffff/apple-phone.png" />
+              <div>
+                <p><strong>PHONE</strong></p>
+                <p>+91-9830729259</p>
+              </div>
+            </div>
+            <div class="row">
+              <img src="https://img.icons8.com/ios/30/ffffff/apple-mail.png" />
+              <div>
+                <p><strong>EMAIL</strong></p>
+                <p>XYZ@GMAIL.COM</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <!--main content-->
-      <div class="form__container">
-        <form action="https://formsubmit.co/exabyte@sxccal.edu" method="POST">
-          <input
-            type="hidden"
-            name="_subject"
-            value="From eXabyte Contact form"
-          />
-          <input
-            type="hidden"
-            name="_next"
-            value="http://127.0.0.1:5500/exabyte22/screens/ContactScreen/response.html"
-          />
-          <label for="name">Name</label><br />
-          <input
-            class="popUp"
-            type="text"
-            id="name"
-            name="name"
-            required
-          /><br />
-          <label for="email">Email</label><br />
-          <input
-            class="popUp"
-            type="email"
-            name="email"
-            required
-            id="email"
-          /><br />
-          <!--label for="phone">Phone</label><br />
-          <input class="popUp" type="number" id="phone" /><br /-->
-          <label for="comment">Message</label><br />
-          <textarea
-            class="popUp"
-            type="text"
-            name="message"
-            required
-            id="comment"
-          ></textarea
-          ><br />
-          <br />
-          <button class="popUp" type="submit">Submit Your Request</button>
-        </form>
-        <div class="helper__container">
-          <div class="row">
-            <img src="https://img.icons8.com/ios/30/ffffff/apple-phone.png" />
-            <div>
-              <p><strong>PHONE</strong></p>
-              <p>+91-9830729259</p>
-            </div>
-          </div>
-          <div class="row">
-            <img src="https://img.icons8.com/ios/30/ffffff/apple-mail.png" />
-            <div>
-              <p><strong>EMAIL</strong></p>
-              <p>XYZ@GMAIL.COM</p>
-            </div>
-          </div>
-        </div>
-      </div>
       <!--right navbar-->
       <div class="sidebar" id="mySidebar">
         <div class="nav__btns">
@@ -140,14 +136,28 @@
               /></a>
             </li>
             <li class="selected">
-              <a href="../ContactScreen/contact.html">Contact us</a
-              ><a href="../ContactScreen/contact.html"
+              <a href="">Contact us</a
+              ><a href=""
                 ><img
                   src="https://img.icons8.com/ios/50/ffffff/online-support.png"
               /></a>
             </li>
           </ul>
         </div>
+        <!--div class="icons__container">
+          <a href=""
+            ><img
+              src="https://img.icons8.com/ios/30/ffffff/facebook-new.png"
+            /> </a
+          ><a href=""
+            ><img
+              src="https://img.icons8.com/ios/30/ffffff/twitter--v1.png"
+            /> </a
+          ><a href=""
+            ><img
+              src="https://img.icons8.com/ios/30/ffffff/instagram-new--v1.png"
+          /></a>
+        </div-->
       </div>
     </div>
     <script src="../../sidebar/navbar.js"></script>
