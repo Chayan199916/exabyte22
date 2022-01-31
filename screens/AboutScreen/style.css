@@ -367,15 +367,16 @@ body {
     align-items: center;
     justify-content: center;
   }
+
   
   .countdown-value span:before {
-    width: 60px;
-    font-size: 0.1em;
+    width: 50px;
+    font-size: 0.15em;
   }
   
   .countdown-value > span {
     /* max-width: 150px; */
-    width: 60px;
+    width: 50px;
     font-size: 35px;
   }
   .countdown h2 {
