@@ -138,6 +138,10 @@ body {
 .main p {
   font-size: 1rem;
 }
+.main #see
+{
+  text-transform: uppercase;
+}
 
 
 /* countdown timer */
@@ -148,7 +152,7 @@ body {
   background-image: linear-gradient(315deg, #1c1924 0%, #3e4b52 74%);
   font-family: "Montserrat", sans-serif;
   width: 550px;
-  height: 150px;
+  height: 200px;
   padding: 25px 25px;
   border-radius: 3px;
   -webkit-box-reflect: below 1px
@@ -193,7 +197,7 @@ body {
   color: -webkit-radial-gradient(right, #ede2df, #010101);
   color: -moz-radial-gradient(right, #ede2df, #010101);
   color: radial-gradient(to left, #ede2df, #010101);
-  margin-top: -68px;
+  margin-top: -10px;
   letter-spacing: 7px;
   font-family: "Montserrat";
   font-weight: 600;
