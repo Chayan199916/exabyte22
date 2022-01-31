@@ -42,6 +42,12 @@
   font-weight: 600;
 }
 
+@media (max-width: 500px) {
+  .logo {
+    font-size: 18px;
+  }
+}
+
 .logo img {
   margin-right: 1rem;
   height: 50px;

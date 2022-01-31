@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("../../assets/backgrounds/BGhome-min.png");
+  background: url("../../assets/backgrounds/ourteam.png");
   background-size: cover;
   overflow-x: hidden;
 }
