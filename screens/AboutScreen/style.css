@@ -244,7 +244,7 @@ body {
   }
   .main #about
   {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   /* .details {
@@ -294,6 +294,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+
 
 }
 @media all and (min-width: 800px)
@@ -345,7 +347,7 @@ body {
     margin-left: 1rem;
   }
   .main #about{
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: justify;
 
   }
@@ -365,8 +367,15 @@ body {
     align-items: center;
     justify-content: center;
   }
+  
+  .countdown-value span:before {
+    width: 60px;
+    font-size: 0.1em;
+  }
+  
   .countdown-value > span {
-    max-width: 150px;
+    /* max-width: 150px; */
+    width: 60px;
     font-size: 35px;
   }
   .countdown h2 {
