@@ -15,10 +15,7 @@
 
 .container {
   display: flex;
-  height: 100%;
-  width: 100%;
-  background: url("../../assets/backgrounds/BGhome-min.png");
-  background-repeat: no-repeat;
+  background-image: url(../../assets/backgrounds/BGhome-min.png);
   background-size: cover;
   color: white;
 }
@@ -40,12 +37,6 @@
   align-items: center;
   font-family: CD;
   font-weight: 600;
-}
-
-@media (max-width: 500px) {
-  .logo {
-    font-size: 18px;
-  }
 }
 
 .logo img {
