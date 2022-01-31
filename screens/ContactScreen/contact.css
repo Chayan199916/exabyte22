@@ -15,8 +15,11 @@
 
 .container {
   display: flex;
-  background-image: url(../../assets/backgrounds/contactUsBg-min.jpg);
-  background-size: contain;
+  height: 100%;
+  width: 100%;
+  background: url("../../assets/backgrounds/BGhome-min.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
 }
 

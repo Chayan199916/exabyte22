@@ -261,12 +261,12 @@ body {
 /**/
 
 @media (max-width: 800px) {
-  .wrapper {
+  /* .wrapper {
     display: initial;
     width: 100%;
     justify-content: center;
     align-items: center;
-  }
+  } */
   .container {
     top: 90%;
     display: grid;
@@ -298,7 +298,7 @@ body {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
   .wrapper {
     display: initial;
     width: 100%;
