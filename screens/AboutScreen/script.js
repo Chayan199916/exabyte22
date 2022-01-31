@@ -1,5 +1,6 @@
-const eventDate = new Date(2022, 1, 10);
+const eventDate = new Date(2022, 1, 10, 16);
 const eventTime = eventDate.getTime();
+countDown();
 
 function countDown() {
     let now = new Date();
