@@ -259,7 +259,7 @@ body {
     margin: 4em auto;
   }
   .card {
-    height: 460px !important;
+    height: 280px !important;
   }
   .card-body {
     padding: 0 !important;
@@ -274,11 +274,11 @@ body {
     width: 100%;
     grid-template-columns: auto auto;
     grid-row-gap: 30px;
-    margin-top: 160rem;
+    margin-top: 100rem;
   }
   .background {
     position: absolute;
-    height: 480%;
+    height: 330%;
     width: 100%;
   }
   .card .info {
@@ -288,6 +288,20 @@ body {
     transition: 0.5s;
   }
 
+}
+
+@media screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1300px)
+  and (-webkit-min-device-pixel-ratio: 1)
+{
+  .container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 30px;
+    margin-top: 10rem;
+  }
 }
 
 
@@ -340,7 +354,7 @@ body {
   
   .background {
     position: absolute;
-    height: 680%;
+    height: 550%;
     width: 100%;
 
 }
