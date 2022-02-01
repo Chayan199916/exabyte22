@@ -295,9 +295,13 @@ body {
   }
   .card .info {
 
-    opacity: 1;
+    opacity: 0;
     transform: translateY(30px);
     transition: 0.5s;
+  }
+  .card:hover .info {
+    opacity: 1;
+    transform: translateY(50px);
   }
 
 }
